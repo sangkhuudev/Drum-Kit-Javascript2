@@ -1,0 +1,47 @@
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+html {
+    background: url('./background.jpg') bottom center;
+    font-size: 12px;
+    background-size: cover;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.keys {
+    display: flex;
+    flex : 10;
+    min-height: 100vh;
+    align-items:  center;
+    justify-content: center;
+}
+
+.key {
+    border: 0.4rem solid #76BA99;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding : 1rem  0.5rem;
+    font-size: 1.5rem;
+    transition: all 0.08s ease;
+    text-align: center;
+    width: 10rem;
+    color: #1A4D2E;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing:0.1rem;
+    color: #ffc600;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
